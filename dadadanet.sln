@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dadadanet", "dadadanet\dadadanet.csproj", "{FDDB5145-ECF0-4CF1-8476-DAB8AA16725E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDDB5145-ECF0-4CF1-8476-DAB8AA16725E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDB5145-ECF0-4CF1-8476-DAB8AA16725E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDB5145-ECF0-4CF1-8476-DAB8AA16725E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDB5145-ECF0-4CF1-8476-DAB8AA16725E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38706019-006B-4F30-A97E-14E5CF61E4AC}
+	EndGlobalSection
+EndGlobal
