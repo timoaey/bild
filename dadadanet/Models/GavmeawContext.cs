@@ -37,7 +37,7 @@ public partial class GavmeawContext : DbContext
                 .HasColumnName("name");
             entity.Property(e => e.PatronymicName)
                 .HasMaxLength(100)
-                .HasColumnName("Patronymic name");
+                .HasColumnName("patronymic_name");
             entity.Property(e => e.Surname)
                 .HasMaxLength(100)
                 .HasColumnName("surname");
@@ -45,18 +45,18 @@ public partial class GavmeawContext : DbContext
 
         modelBuilder.Entity<ConstructionMaterial>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PRIMARY");
+            entity.HasKey(e => e.id).HasName("PRIMARY");
 
             entity.ToTable("construction_materials");
 
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Name)
+            entity.Property(e => e.id).HasColumnName("id");
+            entity.Property(e => e.name)
                 .HasMaxLength(100)
                 .HasColumnName("name");
-            entity.Property(e => e.Price)
+            entity.Property(e => e.price)
                 .HasMaxLength(100)
                 .HasColumnName("price");
-            entity.Property(e => e.Quantity)
+            entity.Property(e => e.quantity)
                 .HasMaxLength(100)
                 .HasColumnName("quantity");
         });
