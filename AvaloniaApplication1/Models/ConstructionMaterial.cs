@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace dadadanet.Models;
+namespace gavmeaw.Models;
 
 public partial class ConstructionMaterial
 {
